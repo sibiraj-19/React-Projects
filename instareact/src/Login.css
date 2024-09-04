@@ -1,0 +1,47 @@
+body {
+  background-image: linear-gradient(
+    145deg,
+    #5b5ddf,
+    #8601af,
+    #dd2a7b,
+    #feda77,
+    #f58529
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: large;
+}
+#login {
+  background-color: white;
+  margin-top: 6.6%;
+  border: black 2px solid;
+  height: 400px;
+  width: 25%;
+  font-weight: normal;
+  font-size: medium;
+  font-family: sans-serif;
+  input {
+    height: 35px;
+    width: 250px;
+  }
+  #img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(47, 106, 231);
+    color: white;
+    font-weight: bolder;
+  }
+}
+#signup {
+  border: black 2px solid;
+  background-color: white;
+  width: 25%;
+  height: 70px;
+  padding-top: 2%;
+}
